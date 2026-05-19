@@ -11,7 +11,8 @@ console.log(refridgerator)
 
 let fridge = [1, 2, 3, 4, 5, 6 ,[7,8,9]];
 // ... it is a spread operator used to spread the values from ref type
-let refridgerator=[...fridge]; // [1,2,3,4,5,6]
+let refridgerator = [...fridge]; // [1,2,3,4,5,6]
+console.log(refridgerator)
 // update fridge
 //fridge.pop()
 fridge[1] = 90 // value is not same in both fridge and refridgerator as it is primitive value

@@ -30,8 +30,8 @@ console.log(name1.indexOf("es"))//-1
 let name2 = "Shatanu Pratap Singh"
 let arr = name2.split("")
 console.log(arr)
-let arr1 = name2.split(" ")
-console.log(arr)
+let arr2 = name2.split(" ")
+console.log(arr2)
 //repeat
 let str = "hello "
 console.log(str.repeat(10))
